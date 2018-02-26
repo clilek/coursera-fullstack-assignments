@@ -1,0 +1,123 @@
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+div {
+    margin: 25px;
+}
+
+section {
+    position: relative;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    background-color: darkgray;
+    margin-bottom: 1%;
+}
+
+h2 {
+    position: absolute;
+    top: -0.5%;
+    left: 60.2%;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 1.25em;
+    border: 1px solid black;
+}
+
+p {
+    padding: 15px;
+    margin-top: 25px;
+}
+
+/********** Unique styles **********/
+
+h2#h1 {
+    background-color: darksalmon;
+}
+
+h2#h2 {
+    background-color: firebrick;
+    color: white;
+}
+
+h2#h3 {
+    background-color: goldenrod;
+}
+
+/********** Desktop version only **********/
+
+@media (min-width: 992px) {
+    .section {
+        width: 32%;
+    }
+
+    section#s1 {
+        margin-left: 1%;
+        margin-right: .5%;
+    }
+    
+    section#s2 {
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    
+    section#s3 {
+        margin-left: .5%;
+        margin-right: 1%;
+    }
+}
+
+/********** Tablet version only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section#s1, section#s2 {
+        width: 48.5%;
+    }
+
+    section#s3 {
+        width: 98%;
+    }
+
+    section#s1 {
+        margin-left: 1%;
+        margin-right: .5%;
+    }
+    
+    section#s2 {
+        margin-left: .5%;
+        margin-right: 1%;
+    }
+    
+    section#s3 {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+
+/********** Mobile version only **********/
+
+@media (max-width: 767px) {
+    .section {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
