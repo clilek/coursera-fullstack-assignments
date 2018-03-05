@@ -1,1 +1,47 @@
+#header-nav {
+    background-color: lightgray; 
+}
 
+.navbar-brand {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.navbar-toggle {
+    background-color: lightgray;
+}
+
+span.icon-bar {
+    color: #333;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+#nav-list, #nav-list li {
+    background-color: white;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#nav-list a {
+    color: #333;
+}
+
+#nav-list a:hover {
+    color: lightgray;
+}
+
+.separator {
+    margin: 0;
+}
+
+.row {
+    background-color: lightgray;
+    margin: 15px auto 15px;
+}
+
+.item-title {
+    padding-bottom: 10px;
+}
